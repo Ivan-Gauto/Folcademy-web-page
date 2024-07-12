@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio 5</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Energias renovables
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tipos">Tipos de energias renovables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario">Formulario</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#contacto" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://wa.me/543777604408">Whatsapp</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/Ivan-Gauto">Github</a></li>
+                                <li><a class="dropdown-item" href="https://linkedin.com/in/ivan-gauto-931508239/">Linkedin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="inicio" class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-10 col-md-6 col-lg-6 align-self-center pt-5">
+                <h1 class="text-success">Acerca de</h1>
+                <p>Las tecnologias avanzan a pasos agigantados y empezar a acostumbrarse
+                    a ellas puede no resultar una tarea facil. Aqui encontraras recursos,
+                    informacion y paginas que puedes recurrir para informarte mas sobre
+                    las formas de produccion de energias alternativas que existen y
+                    entender mejor este nuevo cambio que se avecina. Animate, explora y
+                    aprende!</p>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-6">
+                <img class="img-fluid" src="assets/img/Hero_img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="bg-success text-light p-2">
+                <h1>¿Que son las energias renovables?</h1>
+                <p>
+                    La Organización de las Naciones Unidas (ONU) define las energías
+                    renovables como energía derivada de fuentes naturales que, a su vez,
+                    se reponen a un ritmo mayor del que se consumen. La generación de
+                    energías renovables produce muchas menos emisiones que la quema de
+                    combustibles fósiles. Una transición de los combustibles fósiles, los
+                    cuales representan en la actualidad la mayor parte de las emisiones, a
+                    energías renovables resulta fundamental para abordar la crisis
+                    producida por el cambio climático.
+                </p>
+                <div class="fuente">
+                    <p>
+                        Fuente:<a class="text-white"
+                            href="https://www.nationalgeographicla.com/medio-ambiente/2022/11/que-son-las-energias-renovables"
+                            target="_blank">
+                            https://www.nationalgeographicla.com/medio-ambiente/2022/11/que-son-las-energias-renovables</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tipos" class="container-fluid">
+        <div class="row col-lg-12 justify-content-center my-5">
+            <div class="text-center m-2">
+                <h1>Tipos de energías renovables</h1>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Paneles.jpg" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Energía solar</h5>
+                    <p class="card-text">Las tecnologías solares convierten la luz solar en energía
+                        eléctrica, ya sea mediante paneles fotovoltaicos o a través de
+                        espejos que concentran la radiación solar.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Yacyreta.jpg" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Energía hidroeléctrica</h5>
+                    <p class="card-text">La energía hidroeléctrica aprovecha la energía que produce el
+                        movimiento del agua cuando se eleva o desciende de forma
+                        pronunciada.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Bioenergia.jpg" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Bioenergía</h5>
+                    <p class="card-text">La bioenergía se produce a partir de diversos materiales orgánicos,
+                        denominados biomasa, como la madera, el carbón, el estiércol y otros
+                        abonos utilizados para la producción de calor y electricidad, y los
+                        cultivos agrícolas destinados a biocombustibles líquidos.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Campo_eolico.jpg" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Energía eólica</h5>
+                    <p class="card-text">La energía eólica aprovecha la energía cinética del aire en
+                        movimiento gracias al uso de enormes turbinas eólicas ubicadas en
+                        superficies terrestres, en alta mar o en aguas dulces.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Energia_mareomotriz.png" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Energía oceánica</h5>
+                    <p class="card-text">La energía oceánica deriva de las tecnologías que utilizan las
+                        energías térmicas del agua marina, las olas o las corrientes de
+                        agua, por ejemplo, para producir electricidad o calor.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+            <div class="card bg-dark m-3 my-3">
+                <img src="assets/img/Energia_geotermica.jpg" class="card-img-top my-3" alt="...">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Energía geotérmica</h5>
+                    <p class="card-text">La energía geotérmica utiliza la energía térmica disponible del
+                        interior de la Tierra. El calor se extrae de unos depósitos
+                        geotérmicos a través de pozos u otros medios.</p>
+                </div>
+                <div class="row">
+                    <a target="_blank" href="https://www.un.org/es/climatechange/what-is-renewable-energy" class="btn btn-success p-3">¡Explorar mas!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row bg-dark text-light">
+            <div class="my-5">
+                <div class="my-5 text-center">
+                    <h1>Ventajas y desventajas</h1>
+                </div>
+                <div class="my-5">
+                    <h2>Ventajas</h2>
+                </div>
+                <div>
+                    <h3>Respetan más al medio ambiente.</h3>
+                    <p>
+                        El principal beneficio de apostar por energías renovables es, sin
+                        duda, que la mayoría de ellas al usarse no producen emisiones de CO2 u
+                        otros gases dañinos, es decir, de gases que producen un mayor efecto
+                        invernadero u emisiones contaminantes para la atmósfera, como sí
+                        ocurre con los combustibles fósiles.
+                    </p>
+                </div>
+                <div>
+                    <h3>Son energías ilimitadas.</h3>
+                    <p>
+                        Siempre podemos recurrir a ellas para seguir produciendo energía sin
+                        temor a que se acaben sus recursos naturales, como sí ocurre con los
+                        combustibles fósiles, por ejemplo.
+                    </p>
+                </div>
+                <div>
+                    <h3>Son más seguras.</h3>
+                    <p>
+                        generalmente también son mucho más seguras, puesto que no generan
+                        residuos durante su explotación y no generan emisiones contaminantes
+                        perjudiciales para la salud.
+                    </p>
+                </div>
+                <div>
+                    <h3>Facilitan la autonomía.</h3>
+                    <p>
+                        Hablamos de independencia económica e incluso autoconsumo. Con las
+                        energías renovables disminuye la dependencia exterior porque la
+                        producción a partir de los recursos naturales de la zona puede
+                        impulsar la economía de cada región.
+                    </p>
+                </div>
+                <div>
+                    <h3>Crean puestos de trabajo.</h3>
+                    <p>
+                        Teniendo en cuenta la proyección de la demanda y la implantación de
+                        este tipo de energías que deben sucederse a medio plazo, se estima que
+                        estas energías podrán generar hasta cinco veces más puestos de trabajo
+                        que las no renovables.
+                    </p>
+                </div>
+                <div class="my-5">
+                    <h2>Desventajas</h2>
+                </div>
+                <div>
+                    <h3>Una parte de ellas sí contamina.</h3>
+                    <p>
+                        Como es sabido, no hay nada que no contamine en absoluto, puesto que
+                        todo tiene un resultado al crearse, al usarse o al destruirse que
+                        conlleva la producción de gases u otros elementos. Por ello, es cierto
+                        que también las energías renovables llegan a contaminar.
+                    </p>
+                </div>
+                <div>
+                    <h3>La obtención de energía es irregular.</h3>
+                    <p>
+                        Dado que la obtención de energías renovables depende 100% de los
+                        elementos naturales inagotables o renovables, cuando no se dan las
+                        condiciones óptimas se deja de producir energía. Todo depende de los
+                        fenómenos atmosféricos y estos no son controlables
+                    </p>
+                </div>
+                <div>
+                    <h3>Los recursos no son iguales según la zona geográfica.</h3>
+                    <p>
+                        Uno de los grandes problemas de las energías renovables es que no
+                        todas las regiones cuentan con igualdad de recursos naturales, por lo
+                        que no todo el mundo tiene acceso a la misma cantidad o al mismo tipo
+                        de energía.
+                    </p>
+                </div>
+                <div>
+                    <h3>Requieren inversión y espacio.</h3>
+                    <p>
+                        Generar conciencia medioambiental es básico para poder apostar por
+                        este tipo de energías, pero también se requiere de una inversión
+                        importante que no todos los usuarios, a priori, se pueden permitir.
+                    </p>
+                </div>
+                <div class="my-2">
+                    <p>
+                        Fuente:<a class="text-success"
+                            href="https://www.ecologiaverde.com/energias-renovables-ventajas-y-desventajas-3571.html"
+                            target="_blank">
+                            https://www.ecologiaverde.com/energias-renovables-ventajas-y-desventajas-3571.html</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="galeria" class="gallery container-fluid">
+        <div class="row">
+            <div class="text-center my-5">
+                <h1>Consecuencias del cambio climatico</h1>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/inundacion.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Lago seco.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/incendio.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </button>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="formulario" class="container-fluid">
+        <div class="row py-5 bg-dark text-white py-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="text-center m-2">
+                    <h1>Formulario</h1>
+                    <p>Si tienes alguna duda sobre la pagina no dudes en contactarnos</p>
+                </div>
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label class="form-label" for="">Nombre</label>
+                        <input class="form-control" type="text" placeholder="Nombre" maxlength="30" name="Usuario" id=""
+                            required />
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="">apellido</label>
+                        <input class="form-control" type="text" placeholder="Apellido" maxlength="30" name="Usuario"
+                            id="" required />
+                    </div>
+                    <div class="col-12">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="calle y numero">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Elige una</option>
+                            <option>Corrientes</option>
+                            <option>Chaco</option>
+                            <option>Formosa</option>
+                            <option>Misiones</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Mujer
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Hombre
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Otros
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Estoy de acuerdo con que mi informacion se guarde
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-lg btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="container-fluid">
+        <div class="row bg-black p-3 text-center">
+            <div class="col-12 p-3">
+                <a target="_blank" href="https://wa.me/543777604408"><img class="mx-3" src="assets/Fonts/whatsapp.png"
+                        alt=""></a>
+                <a target="_blank" href="https://github.com/Ivan-Gauto"><img src="assets/Fonts/github.png" alt=""></a>
+                <a target="_blank" href="https://linkedin.com/in/ivan-gauto-931508239/"><img class="mx-3"
+                        src="assets/Fonts/linkedin.png" alt=""></a>
+            </div>
+            <div class="text-center text-white">
+                <p>¡Gracias por su visita!</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+section {
+    margin: 0 !important;
+}
+
+.card {
+    width: 18rem !important;
+    transition:all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    height: 150px;
+}
+
+.carousel-inner {
+    max-height: 500px;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+}
